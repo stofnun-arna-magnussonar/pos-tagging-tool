@@ -1,0 +1,94 @@
+{
+    'n': [  "nafnorð",
+            [
+                ['k', 'v', 'h','-'], ['e', 'f','-'], ['n', 'o', 'þ', 'e','-'], ['g','-'], ['s']
+            ],
+            [
+                ['karlkyn', 'kvenkyn', 'hvorkugkyn','-'], ['eintala', 'fleirtala','-'], ['nefnifall', 'þolfall', 'þágufall', 'eignarfall','-'], ['greinir','án greinis'], ['sérnafn']
+            ]
+        ],
+
+    'l': [  "lýsingarorð",
+            [
+                ['k', 'v','h'], ['e', 'f'], ['n', 'o', 'þ', 'e'], ['s', 'v','o'], ['f', 'm', 'e']
+            ],
+            [
+                ['karlkyn', 'kvenkyn', 'hvorkugkyn'], ['eintala', 'fleirtala'], ['nefnifall', 'þolfall', 'þágufall', 'eignarfall'], ['sterk beyging', 'veik beyging','óbeygjanlegt'], ['frumstig', 'miðstig', 'efsta stig']
+            ]
+         ],
+
+    'f': [  "fornafn",
+            [
+                ['p', 'e', 'a', 'b', 'o', 's','t'], ['k', 'v', 'h', '1', '2'], ['e', 'f'], ['n', 'o', 'þ', 'e']
+            ],
+            [
+                ['persónufn.', 'eignarfn.', 'ábendignarfn.', 'óákveðið ábendingarfn.', 'óaḱveðið fn.', 'spurnarfornafn', 'tilvísunarfornafn'], ['karlkyn', 'kvenkyn', 'hvorugkyn', '1. persóna', '2. persóna'], ['eintala', 'fleirtala'], ['nefnifall', 'þolfall', 'þágufall', 'eignarfall']
+            ]
+        ],
+
+    'g': [  "greinir",
+            [
+                ['k', 'v','h'], ['e', 'f'], ['n', 'o', 'þ', 'e']
+            ],
+            [
+                ['karlkyn', 'kvenkyn', 'hvorkugkyn'], ['eintala', 'fleirtala'], ['nefnifall', 'þolfall', 'þágufall', 'eignarfall']
+            ]
+        ],
+    't': [  'töluorð',
+            [
+                ['a', 'f', 'p', 'o'], ['k', 'v','h'], ['e', 'f'],['n', 'o', 'þ', 'e']
+            ],
+            [
+                ['ártöl og fl. ób.', 'frumtala', 'prósentutölur', 'fjöldatölur'], ['karlkyn', 'kvenkyn', 'hvorkugkyn'], ['eintala', 'fleirtala'], ['nefnifall', 'þolfall', 'þágufall', 'eignarfall']
+            ]
+        ],
+    'v': ['veffang',[],[]],
+    's': [
+            'sagnorð',
+            [
+                ['f','n','v','b','l','þ'], ['g', 'm'], ['1', '2', '3', 'k', 'v', 'h'], ['e', 'f'], ['n', 'o', 'þ', 'e']
+            ],
+            [
+                ['framsöguh.', 'nafnháttur', 'viðtengingarh.', 'boðháttur', 'lýsingarh. nútíðar', 'lýsingarh þátíðar'], ['germynd', 'miðmynd'], ['1. persónar', '2. persóna', '3. persóna', 'karlkyn', 'kvenkyn', 'hvorugkyn'], ['eintala', 'fleirtala'], ['nefnifall', 'þolfall', 'þágufall', 'eignarfall']
+            ]
+        ],
+    'a': [  'atviksorð',
+            [
+                ['a', 'f', 'u'], ['m', 'e']
+            ],
+            [
+                ['atviksorð', 'forsetning', 'upphrópun'], ['miðstig', 'efsta stig']
+            ]
+        ],
+    'c': [  'samtenging',
+            [
+                ['n', 't']
+            ],
+            [
+                ['nafnáttarmerki', 'tilvísanatenging']
+            ]
+
+        ],
+    'k': [  'skammstöfun',
+             [
+                ['s', 't']
+             ],
+             [
+                ['skammstöfun', 'stytting']
+             ]
+        ],
+    'e': ['erlent orð', [],[]],
+    'x': ['ógreint orð',[],[]],
+    'p': [
+            'greinarmerki',
+            [
+                ['l', 'k', 'g', 'a']
+            ],
+            [
+                ['lok setn.', 'komma/semíkomma', 'gæsalappir', 'önnur']
+            ]
+        ],
+    'm': ['tákn',[],[]],
+
+    'order' : ['n','l','f','g','t','s','a','c','k','e','x','v','p','m']
+}

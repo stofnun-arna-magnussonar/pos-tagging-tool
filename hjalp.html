@@ -1,0 +1,107 @@
+<html>
+<style>
+  h1{
+    font-size:1.5em;
+  }
+  h2{
+    margin-left:30px;
+    font-size: 1.3em
+  }
+
+  h3{
+    margin-left:50px;
+    font-size:1.0em
+  }
+  .t1{
+    margin-left:20px
+  }
+  .t2{
+    margin-left:50px
+  }
+  .t3{
+    margin-left:50px
+  }
+</style>
+<body>
+  <div>
+    <h1>1. Að breyta skjali</h1>
+
+    <h2>1.1. Orðmynd</h2>
+    <p class=t2>Ekki er hægt að breyta orðmynd.</p>
+
+    <h2>1.2. Mark</h2>
+
+    <p class=t2>Hægt er að velja um tvo mismunandi hami þegar unnið er með mörk, flettigluggaham og ritunarham. Farið er á milli hama með ctrl-a eða með því að smella á hnapp við hliðina á reit.</p>
+    <h3>1.2.1. Flettigluggi</h3>
+    <p class=t3>Sjálfgefinn hamur fyrir hvert mark er þannig að flettigluggi opnast með mögulegum mörkum fyrir hverja orðmynd. Hægt er að velja með músarsmelli eða með því að nota örvarnar á lyklaoborði.</p>
+    <h3>1.2.2. Skrifað í reit</h3>
+    <p class=t3>Þá er hægt að skrifa beint í reitinn. Flettigluggi opnast sem sýnir mögulegan staf í hvert skitpi.</p>
+    <h2>1.3.  Lemma og athugasemdir</h2>
+    <p class=t2>Lemmu og athugasemdum er breytt með því að rita í reitina.</p>
+    <h2>1.4.  Að slíta í sundur og sameina setningar</h2>
+    <p class=t2>Hægt er að slíta í sundur setningar með því að smella á markareit þess orðs sem á að verða upphafsorð nýrrar setningar og smella á Ctrl-F1.</p>
+    <p class=t2>Hægt er að sameina setningar með því að smella á fyrsta markareit þeirrar setningar sem á að sameina við fyrri setningu og smella á Ctrl-F2.</p>
+
+    <h1>2. Flakkað um skjal</h1>
+    <h2>2.1. Farið á milli setninga</h2>
+    <p class=t2>Hægt er að fara frá einni setningu til þeirrar næstu með því að smella á hnappana "Fyrri setning" og "Næsta setning". Einnig er hægt að rita númer setningar í reitinn "Setn. nr" og ýta á Enter.</p>
+    <h2>2.2. Farið á milli hluta setningar</h2>
+    <p class=t2>Aðeins birtast 25 orð á glugga í hvert skipti. Ef setning er lengri en sem því nemur þá er hægt að fara á milli parta með því að smella á hnappana '<' og '>' vinstra megin fyrir ofan setningu.</p>
+    <h2>2.3. Leit</h2>
+    <p class=t2>Hægt er að leita í skjali eftir orðmynd, lemmu, marki, athugasemd og því hvort orð hafi verið merkt lokið.</p>
+    <h3>2.3.1. Leitað eftir orðmynd</h3>
+    <p class=t3>
+        <i>wordform=maðurinn</i><br><br>
+        Einnig má nota <i>orð</i> eða <i>orðmynd</i> í stað <i>wordform</i>.
+    </p>
+    <h3>2.3.2. Leitað eftir lemmu</h3>
+        <i>lemma=maður</i><br><br>
+        <p class=t3>
+    </p>
+    <h3>2.3.3.Leitað eftir marki</h3>
+    <p class=t3>
+        <i>tag=nkeo</i><br><br>
+        Einnig má nota <i>mark</i> í stað <i>tag</i>.
+    </p>
+    <h3>2.3.4. Leitað eftir athugasemd</h3>
+        <i>remark=ks eða kt</i><br><br>
+        <p class=t3>
+        Einnig má nota <i>at</i> í stað <i>remark</i>.
+    </p>
+    <h3>2.3.5. Leitað eftir lokið/ólokið</h3>
+    <p class=t3>
+        <i>done=1 / done=0</i><br><br>
+        Einnig má nota <i>lokið</i> í stað <i>done</i>.
+    </p>
+    <h3>2.3.6. Reglulegar segðir</h3>
+    <p class=t3>
+      Ef leitarstrengur er t.d. ath=ks þá eru öll þau tilvik þar sem ks finnst í athugasemdum birt, óháð því hvort eitthvað standi á undan eða eftir.
+      Til að takmarka leit við upphaf setningar þá þarf að skrifa '^ks' og til að takmarka leit við lok þá er ritað 'ks$'. Þannig myndi '^ks$' aðeins skilar
+      athugasemdum þar sem einungis er að finna 'ks'.
+    </p>
+    <h3>2.3.7. Notkun * ? og +</h3>
+      <table class=t3>
+        <tr>
+         <td>.*</td>
+         <td>enginn, einn eða fleiri stafir </td>
+        </tr>
+      <tr>
+         <td>.?</td>
+         <td>enginn eða einn stafur</td>
+      </tr>
+      <tr>
+         <td>.+</td>
+         <td>einn eða fleiri stafir</td>
+        </tr>
+    </table>
+    <h3>2.3.8. Samsett leit</h3>
+    <p class=t3>Hægt er að nota && til að tákn "og" í leit. Þannig er t.d. hægt að leita eftir marki og athugasemd í einni og sömu leitinni.<br><br>
+    Dæmi: <i>ath=ks&&lokið=1</i> leitar að öllum tilvikum þar sem ks er að finna í athugasemd og orð er ekki merkt sem lokið.</p>
+
+    <h1>3. Flakkað á milli orða</h1>
+    <p class=t1>Hægt er að nota örvarnar upp og niður til að fara á milli orða. Einnig er hægt að smella á Enter en þá er orð merkt 'lokið' um leið og farið er í næsta orð.
+    Ef leit er virk þá er farið í næsta orð sem passar við leitarskilyrði, þótt það sé í annarri setningu. Annars er farið yfir á næsta orð í setningu.</p>
+  </div
+
+</body>
+</html>
