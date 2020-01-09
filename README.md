@@ -1,8 +1,10 @@
 # pos-tagging-tool
-Mörkunartólið er ætlað til að laga mörkun og lemmun á textum. 
+Mörkunartólið nýtist til að laga mörkun og lemmun á textum í höndunum. 
+
 
 INNTAKSSKRÁ / ÚTTAKSSKRÁ:
-Hver lína inniheldur eitt þar sem orð og tengdar upplýsignar (mark, lemma o.fl) eru aðskilin með dálkabili (e. tab). 
+
+Hver lína inniheldur eitt orð og tengdar upplýsignar (mark, lemma o.fl) og er þau aðskilin með dálkabili (e. tab). 
 Með sjálfgefnum stillingum er gert ráð fyrr eftirfarandi:
 
 dálkur 1: orð 
@@ -19,6 +21,7 @@ Mögulegt er að bæta við einum eða fleiri hnöppum með líklegu marki (t.d.
 
 Setningar eru aðskildar með línubili.
 
+
 MARKAMENGI:
 
 Mörkunartólið les upplýsingar úr þremur skjölum sem það notar til villugreiningar og til að birta möguleg mörk.
@@ -28,7 +31,9 @@ gullstöðlum, MÍM-GULL og OTB-GULL.)
 - valid_tags.txt inniheldur python-orðabók (dict) sem geymir upplýsingar um mögulega samsetningu marka og 
 upplýsingar um merkingu hvers stafs í marki.
 
+
 NOTKUN:
+
 Ítarlegar upplýsingar um notkun tólsins er að finna í skjalinu hjalp.html.
 
 
